@@ -9,7 +9,7 @@ which  implements a fast and robust queue system built on top of Redis that help
 
 The solution is to assign each queue to each region , then add the repeateable job for every region . 
 Questionlist will be updated after each cycle , by listening to the completed event for each job.
-BullMQ provides provides Job Schedulers instead of repeatable jobs ,  which allows users to update the job data after every cycle . 
+BullMQ provides advanced feature called Job Schedulers instead of repeatable jobs ,  which allows users to update the job data after every cycle . 
 This helps in maintaining the question list in real time for reassignment to other regions .
 
 The demo can be run by executing index.js with node . 
