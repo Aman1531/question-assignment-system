@@ -16,4 +16,5 @@ The demo can be run by executing index.js with node .
 Cycle is set at 1 second interval for testing purposes . 
 Any cron expression can be used to set the custom cycle . 
 
+By using the concurrency and cluster features of BullMQ , desired scalability and performance can be maintained.
  
